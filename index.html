@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Creative To-Do List</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-container">
+    <h1>✨ My To-Do List</h1>
+    <div class="todo-input">
+      <input type="text" id="task-input" placeholder="What do you need to do?">
+      <button id="add-task">Add</button>
+    </div>
+    
+    <ul id="task-list"></ul>
+
+    <div class="filters">
+      <button data-filter="all" class="active">All</button>
+      <button data-filter="active">Active</button>
+      <button data-filter="completed">Completed</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
